@@ -1,0 +1,291 @@
+! Morphological Transducer for Malay
+
+Multichar_Symbols
+
+! Part of speech categories
+%<n%>   ! Noun
+%<v%>   ! Verb
+%<adj%> ! Adjective
+%<pr%> ! Preposition
+
+! Number morphology
+%<pl%>  ! Plural
+%<sg%>  ! Singular
+
+! Other symbols
+%>      ! Morpheme boundary
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!                       M O R P H O T A C T I C S                         !!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON Root
+
+Nouns;
+
+Verbs;
+
+Adjectives;
+
+Prepositions;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!                          L E X I C O N                                  !!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON N1
+
+%<n%>%<sg%>:  # ;
+
+LEXICON V
+
+%<v%>: # ;
+
+LEXICON ADJ
+
+%<adj%>: # ;
+
+LEXICON PR
+
+%<pr%>: # ;
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+!=============!
+ LEXICON Nouns
+!=============!
+
+abad:abad N1 ; ! "century"
+abang:abang N1 ; ! "brother"
+air:air N1 ; ! "water"
+anak:anak N1 ; ! "child"
+api:api N1 ; ! "fire"
+ayah:ayah N1 ; ! "father"
+ayam:ayam N1 ; ! "chicken"
+baba:baba N1 ; ! "father"
+babak:babak N1 ; ! "chapter"
+badan:badan N1 ; ! "body"
+bahasa:bahasa N1 ; ! "language"
+bahu:bahu N1 ; ! "shoulder"
+balik:balik N1 ; ! "back"
+bandar:bandar N1 ; ! "town"
+bang:bang N1 ; ! "brother"
+bangku:bangku N1 ; ! "bench"
+belakang:belakang N1 ; ! "back"
+bibir:bibir N1 ; ! "lip"
+buku:buku N1 ; ! "book"
+bulan:bulan N1 ; ! "month"
+cakerawala:cakerawala N1 ; ! "planet"
+calon:calon N1 ; ! "candidate"
+cawan:cawan N1 ; ! "cup"
+dada:dada N1 ; ! "chest"
+daging:daging N1 ; ! "meat"
+dagu:dagu N1 ; ! "chin"
+diri:diri N1 ; ! "self"
+dunia:dunia N1 ; ! "world"
+epal:epal N1 ; ! "apple"
+gadis:gadis N1 ; ! "girl"
+gigi:gigi N1 ; ! "tooth"
+hati:hati N1 ; ! "heart"
+hidung:hidung N1 ; ! "nose"
+hidup:hidup N1 ; ! "life"
+ibu:ibu N1 ; ! "mother"
+ikan:ikan N1 ; ! "fish"
+jalan:jalan N1 ; ! "street"
+jam:jam N1 ; ! "hour"
+jantung:jantung N1 ; ! "heart"
+jari:jari N1 ; ! "finger"
+kaki:kaki N1 ; ! "foot"
+kasih:kasih N1 ; ! "love"
+keju:keju N1 ; ! "cheese"
+keluarga:keluarga N1 ; ! "family"
+kepala:kepala N1 ; ! "head"
+kepala:kepala N1 ; ! "head"
+kereta:kereta N1 ; ! "car"
+kerja:kerja N1 ; ! "work"
+kopi:kopi N1 ; ! "coffee"
+kota:kota N1 ; ! "city"
+laki:laki N1 ; ! "husband"
+leher:leher N1 ; ! "neck"
+lekaki:lekaki N1 ; ! "man"
+lengan:lengan N1 ; ! "arm"
+lidah:lidah N1 ; ! "tongue"
+lutut:lutut N1 ; ! "knee"
+malam:malam N1 ; ! "night"
+manusia:manusia N1 ; ! "human"
+masalah:masalah N1 ; ! "problem"
+mata:mata N1 ; ! "eye"
+menit:menit N1 ; ! "minute"
+mentega:mentega N1 ; ! "butter"
+muka:muka N1 ; ! "face"
+mulut:mulut N1 ; ! "mouth"
+nama:nama N1 ; ! "name"
+orang:orang N1 ; ! "person"
+oren:oren N1 ; ! "orange"
+pagi:pagi N1 ; ! "morning"
+paha:paha N1 ; ! "thigh"
+perut:perut N1 ; ! "stomach"
+pikir:pikir N1 ; ! "thought"
+pintu:pintu N1 ; ! "door"
+pisang:pisang N1 ; ! "banana"
+pria:pria N1 ; ! "man"
+raja:raja N1 ; ! "king"
+raja:raja N1 ; ! "king"
+rambut:rambut N1 ; ! "hair"
+roti:roti N1 ; ! "bread"
+rumah:rumah N1 ; ! "home"
+saat:saat N1 ; ! "moment"
+sarapan:sarapan N1 ; ! "breakfast"
+sebentar:sebentar N1 ; ! "moment"
+sekolah:sekolah N1 ; ! "school"
+senjata:senjata N1 ; ! "weapon"
+seseorang:seseorang N1 ; ! "someone"
+siang:siang N1 ; ! "daytime"
+sifat:sifat N1 ; ! "characteristic"
+siku:siku N1 ; ! "elbow"
+susu:susu N1 ; ! "milk"
+tahun:tahun N1 ; ! "year"
+tahun:tahun N1 ; ! "year"
+tekak:tekak N1 ; ! "throat"
+telinga:telinga N1 ; ! "ear"
+teman:teman N1 ; ! "friend"
+tempat:tempat N1 ; ! "place"
+tengan:tengan N1 ; ! "hand"
+tunjuk:tunjuk N1 ; ! "point"
+waktu:waktu N1 ; ! "time"
+wang:wang N1 ; ! "money"
+wanita:wanita N1 ; ! "woman"
+
+
+!=============!
+ LEXICON Verbs
+!=============!
+
+ada:ada V ; ! "be"
+adakah:adakah V ; ! "do"
+bawa:bawa V ; ! "bring"
+beritahu:beritahu V ; ! "tell"
+berpikir:berpikir V ; ! "think"
+bertemu:bertemu V ; ! "meet"
+biarkan:biarkan V ; ! "let"
+bicara:bicara V ; ! "speak"
+dengar:dengar V ; ! "hear"
+ingin:ingin V ; ! "want"
+kakatan:kakatan V ; ! "say"
+kasih:kasih V ; ! "love"
+keluar:keluar V ; ! "exit"
+kembali:kembali V ; ! "return"
+mahu:mahu V ; ! "want"
+makan:makan V ; ! "eat"
+membawa:membawa V ; ! "lead"
+membuat:membuat V ; ! "make"
+membunuh:membunuh V ; ! "kill"
+memiliki:memiliki V ; ! "own"
+mencari:mencari V ; ! "search"
+mengambil:mengambil V ; ! "take"
+merasa:merasa V ; ! "feel"
+percaya:percaya V ; ! "believe"
+rasa:rasa V ; ! "taste"
+sendiri:sendiri V ; ! "own"
+tahu:tahu V ; ! "know"
+takut:takut V ; ! "fear"
+terima:terima V ; ! "receive"
+tidur:tidur V ; ! "sleep"
+
+
+!==================!
+ LEXICON Adjectives
+!==================!
+
+bahagian:bahagian ADJ ; ! "part"
+baik:baik ADJ ; ! "good"
+banyak:banyak ADJ ; ! "many"
+beberapa:beberapa ADJ ; ! "few"
+beberapa:beberapa ADJ ; ! "some"
+berat:berat ADJ ; ! "heavy"
+berkuasa:berkuasa ADJ ; ! "powerful"
+bersih:bersih ADJ ; ! "clean"
+besar:besar ADJ ; ! "big"
+betul:betul ADJ ; ! "correct"
+biru:biru ADJ ; ! "blue"
+bundar:bundar ADJ ; ! "circular"
+buruk:buruk ADJ ; ! "bad"
+coklat:coklat ADJ ; ! "brown"
+dalam:dalam ADJ ; ! "deep"
+gelap:gelap ADJ ; ! "dark"
+hijau:hijau ADJ ; ! "green"
+hitam:hitam ADJ ; ! "black"
+jingga:jingga ADJ ; ! "orange"
+kecil:kecil ADJ ; ! "small"
+kelabu:kelabu ADJ ; ! "gray"
+kering:kering ADJ ; ! "dry"
+kosong:kosong ADJ ; ! "empty"
+kotor:kotor ADJ ; ! "dirty"
+kuning:kuning ADJ ; ! "yellow"
+lebar:lebar ADJ ; ! "wide"
+lebar:lebar ADJ ; ! "wide"
+lemah:lemah ADJ ; ! "weak"
+lurus:lurus ADJ ; ! "straight"
+mahal:mahal ADJ ; ! "expensive"
+manis:manis ADJ ; ! "sour"
+masam:masam ADJ ; ! "sour"
+masin:masin ADJ ; ! "salty"
+merah:merah ADJ ; ! "red"
+muda:muda ADJ ; ! "young"
+murah:murah ADJ ; ! "inexpensive"
+nipis:nipis ADJ ; ! "thin"
+pahit:pahit ADJ ; ! "bitter"
+panjang:panjang ADJ ; ! "long"
+pendek:pendek ADJ ; ! "short"
+perlahan:perlahan ADJ ; ! "slow"
+putih:putih ADJ ; ! "white"
+salah:salah ADJ ; ! "wrong"
+sedikit:sedikit ADJ ; ! "little"
+segar:segar ADJ ; ! "fresh"
+sempit:sempit ADJ ; ! "narrow"
+semua:semua ADJ ; ! "whole"
+senyap:senyap ADJ ; ! "quiet"
+sukar:sukar ADJ ; ! "difficult"
+tebal:tebal ADJ ; ! "thick"
+tinggi:tinggi ADJ ; ! "tall"
+tua:tua ADJ ; ! "old"
+ungu:ungu ADJ ; ! "purple"
+
+!===================!
+ LEXICON Prepositions
+!===================!
+
+atas:atas PR ; ! "over"
+berhampiran:berhampiran PR ; ! "near"
+dari:dari PR ; ! "from"
+dari:dari PR ; ! "of"
+di:di PR ; ! "at"
+kecuali:kecuali PR ; ! "except"
+luar:luar PR ; ! "beyond"
+oleh:oleh PR ; ! "by"
+pada:pada PR ; ! "on"
+sebagai:sebagai PR ; ! "as"
+sebelum:sebelum PR ; ! "before"
+selama:selama PR ; ! "during"
+selpas:selpas PR ; ! "after"
+seterusnya:seterusnya PR ; ! "next"
+setiap:setiap PR ; ! "per"
+tentang:tentang PR ; ! "about"
+terhadap:terhadap PR ; ! "against"
+tetapi:tetapi PR ; ! "but"
+untuk:untuk PR ; ! "for"
+walaupun:walaupun PR ; ! "despite"
+
+
+
+! Resources:
+! http://wiki.apertium.org/wiki/Starting_a_new_language_with_HFST#Lexicon
+! http://wiki.apertium.org/wiki/Lttoolbox_and_lexc
+! http://wiki.apertium.org/wiki/Apertium-specific_conventions_for_lexc
+! https://kitwiki.csc.fi/twiki/bin/view/KitWiki/HfstHome
+! http://hfst.sourceforge.net/
+! http://www.cis.upenn.edu/~cis639/docs/lexc.html
+! http://wiki.apertium.org/wiki/Hfst
+

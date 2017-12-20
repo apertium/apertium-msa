@@ -1,1 +1,17 @@
 * text=auto !eol
+/AUTHORS -text
+/COPYING -text
+/ChangeLog -text
+/INSTALL -text
+/Makefile.am -text
+/NEWS -text
+/README -text
+/apertium-msa.msa.lexc -text
+/apertium-msa.msa.rlx -text
+/apertium-msa.msa.twol -text
+/apertium-msa.pc.in -text
+/apertium-msa.post-msa.dix -text
+/autogen.sh -text
+/configure.ac -text
+/modes.xml -text
+/msa.prob -text svneol=unset#unset

@@ -1,0 +1,8 @@
+prefix=@prefix@
+exec_prefix=${prefix}
+srcdir=@datarootdir@/apertium/apertium-msa
+
+Name: apertium-msa
+Description: Finite-state morphological transducer and constraint grammar for Malay 
+Version: @VERSION@
+
