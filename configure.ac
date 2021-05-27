@@ -1,6 +1,6 @@
 AC_PREREQ(2.52)
 
-AC_INIT([Apertium Malay], [0.1.0], [ryan.andrew.chi@gmail.com], [apertium-msa], [http://wiki.apertium.org/wiki/Apertium-msa])
+AC_INIT([Apertium Malay], [0.1.0], [ryan.andrew.chi@gmail.com], [apertium-msa], [https://wiki.apertium.org/wiki/Apertium-msa])
 AM_INIT_AUTOMAKE
 
 AC_PROG_LN_S
